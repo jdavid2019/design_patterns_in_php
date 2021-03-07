@@ -1,0 +1,10 @@
+
+Singleton (soltero)
+SINGLETON: Garantiza que solamente se crea una instancia de la clase y provee un punto
+        de acceso global a él. Todos los objetos que utilizan una instancia de esa clase
+        usan la misma instancia.
+
+        La intención de este patrón es garantizar que solamente pueda existir una única instancia de 
+        una determinada clase y que exista una referencia global en toda la aplicación.
+
+        Nos permite ahorrar memoria
