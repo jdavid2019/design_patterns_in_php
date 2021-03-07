@@ -1,3 +1,5 @@
 PATRONES DE DISEÑO
  - PATRONES CREACIONALES
-
+    1. Patron SINGLETON: Garantiza que solamente se crea una instancia de la clase y provee un punto
+        de acceso global a él. Todos los objetos que utilizan una instancia de esa clase
+        usan la misma instancia.
