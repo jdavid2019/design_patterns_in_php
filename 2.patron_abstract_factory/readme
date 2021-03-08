@@ -1,0 +1,22 @@
+En términos simples, un abstract factory es
+una interface o clase abstracta que
+suministra una interface para producir una
+familia de objetos.
+•Una fábrica abstracta ayuda a evitar esta
+duplicaciónmediante el suministro de la
+interface necesaria para la creación de tales 
+instancias. Diferentes fábricas concretas
+implementan esta interface
+
+
+interface Acciones{
+    public function hacer();
+    public function tejer();
+}
+
+
+class Persona implements Acciones{
+    public function hacer(){
+        print "esta persona hara tal cosa"
+    }
+}

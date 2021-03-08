@@ -16,11 +16,11 @@ class Formulario{
        </head>
      <?php
     }
-    public function generarPie(){
+    public function generarPie($pie){
         ?>
          <footer>
            <div class="foot">
-                  <p>Pie de página</p>
+                  <p><?php echo $pie ?></p>
            </div>
          </footer>
         <?php

@@ -35,6 +35,7 @@ class formRegistro{
                         </tr>  
                         </tbody>
                     </table>
+                    <?php Formulario::getInstancia()->generarPie("Pie de página para el registro") ?>
                 </body>
             </html>
         <?php
